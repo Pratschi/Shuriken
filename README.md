@@ -16,11 +16,12 @@ We need an User and Developer Friendly filesystem, so instead of having multiple
 ├── sys (All system files)
 │    ├── bin
 │    ├── boot
+|    ├── config (All config files for system and programs)
 │    └── utilities
 │        └── pak (Package manager)
 │            └── packages
 ├── mnt (Mounted disks)
-└── tmp (Deletes on reboot)
+└── tmp (Temporary files)
 ```
 Working with the filesystem is really simple, Specifing;
 * `/` at the start of a file path, it means it's on the **root folder**.
