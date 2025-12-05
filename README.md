@@ -1,8 +1,16 @@
 # Shuriken
+![Downloads](https://img.shields.io/github/downloads/Pratschi/shuriken/total) ![Issues](https://img.shields.io/github/issues/Pratschi/shuriken) ![PRs](https://img.shields.io/github/issues-pr/Pratschi/shuriken) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+
 An Operating System, with a focus on performance, developing and User-Friendly UI
+# Objectives
+* RAM Idle Usage: =< 200MB
+* Boot Time: < 10s
+* Simple and User Friendly UI in Desktop Version
+* Simple File System, with everything in one place
+* CMD with intuitive commands and arguments
 # File System
 We need an User and Developer Friendly filesystem, so instead of having multiple folders for related things, we're going to simplify everything.
-```/
+```
 ├── Users
 |    ├── Shared
 │    └── User1
