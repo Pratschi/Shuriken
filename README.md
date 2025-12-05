@@ -2,32 +2,32 @@
 An Operating System, with a focus on performance, developing and User-Friendly UI
 # File System
 We need an User and Developer Friendly filesystem, so instead of having multiple folders for related things, we're going to simplify everything.
-<br>/
-<br>├── Users
-<br>|    ├── Shared
-<br>│    └── User1
-<br>│        ├── Programs
-<br>│        ├── Downloads
-<br>│        └── .data.json (Hidden)
-<br>│            ├── startup
-<br>│            ├── settings
-<br>│            ├── start
-<br>│            └── desktop
-<br>├── sys (All system files)
-<br>│    ├── bin
-<br>│    ├── boot
-<br>│    └── utilities
-<br>│        └── pak (Package manager)
-<br>│            └── packages
-<br>├── mnt (Mounted disks)
-<br>└── tmp (Deletes on reboot)
-<br>
-<br> Working with the filesystem is really simple, Specifing;
-* `/` at the start of a file path, it means it's on the root folder.
-* `.` at the start of the file path, it means it's on the current folder.
-* `..` in the file path, it means it's on the parent folder. This can be used multiple times to go up multiple levels.
-* `~` at the start of the file path, it means it's on the current user folder.
-* `*` at the end of a **directory** path, it includes all the files and subfolders. Only works with certain commands, like `ls` and `rm`.
+```/
+├── Users
+|    ├── Shared
+│    └── User1
+│        ├── Programs
+│        ├── Downloads
+│        └── .data.json (Hidden)
+│            ├── startup
+│            ├── settings
+│            ├── start
+│            └── desktop
+├── sys (All system files)
+│    ├── bin
+│    ├── boot
+│    └── utilities
+│        └── pak (Package manager)
+│            └── packages
+├── mnt (Mounted disks)
+└── tmp (Deletes on reboot)
+```
+Working with the filesystem is really simple, Specifing;
+* `/` at the start of a file path, it means it's on the **root folder**.
+* `.` at the start of the file path, it means it's on the **current folder**.
+* `..` in the file path, it means it's on the **parent folder**. This can be used multiple times to go up multiple levels.
+* `~` at the start of the file path, it means it's on the **current user folder**.
+* `*` at the end of a **directory** path, it includes all the **files and subfolders**. Only works with certain commands, like `ls` and `rm`.
 
 # Commands
 Commands list, usage and arguments.
