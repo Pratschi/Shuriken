@@ -4,7 +4,5 @@
 An Operating System, with a focus on performance, developing and User-Friendly UI
 
 ## About
-The objeective of this is to join Developers who known how to program in ASM to make a lightweight Shell-Like OS, that's able to load scripts and install packages.
-<br><br> But really, it's just a sketch for a future project. To make it really simple for developers, the boot folder (In UEFI Platforms) has the boot.efi, wich directly loads the shell and the background programs.
-<br> Legacy BIOS Support isn't planned.
+The objective of this project is to unite Developers into making a lightweight OS. Developer-Friendly, User-Friendly and Performance-Focused. Also very reliable for programming servers.
 <br><br>**Please check the [Wiki](https://github.com/Pratschi/Shuriken/wiki) for all the information and planning.**
