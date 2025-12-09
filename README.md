@@ -1,7 +1,9 @@
-# Shuriken
-![Downloads](https://img.shields.io/github/downloads/Pratschi/shuriken/total) ![Issues](https://img.shields.io/github/issues/Pratschi/shuriken) ![PRs](https://img.shields.io/github/issues-pr/Pratschi/shuriken) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+<img align="right" src="https://github.com/Pratschi/Shuriken/blob/main/media/shuriken_logo.svg">
 
-An Operating System, with a focus on performance, developing and User-Friendly UI
+# Shuriken
+![Downloads](https://img.shields.io/github/downloads/Pratschi/shuriken/total) ![Issues](https://img.shields.io/github/issues/Pratschi/shuriken)
+
+An Operating System, with a focus on performance, developing and User-Friendly UI 
 
 ## About
 The objective of this project is to unite Developers into making a lightweight OS. Developer-Friendly, User-Friendly and Performance-Focused. Also very reliable for programming servers.
