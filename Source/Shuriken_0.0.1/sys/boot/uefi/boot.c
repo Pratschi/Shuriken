@@ -1,15 +1,8 @@
 #include <efi.h>
 #include <efilib.h>
+#include "bootinfo.h"
 
 // BootInfo shared with kernel
-struct BootInfo {
-    UINT64 fb_addr;
-    UINT32 fb_width;
-    UINT32 fb_height;
-    UINT32 fb_pitch;
-    UINT8 boot_type; // 1 = UEFI
-};
-
 EFI_STATUS efi_main(EFI_HANDLE img, EFI_SYSTEM_TABLE *sys)
 {
     InitializeLib(img, sys);
